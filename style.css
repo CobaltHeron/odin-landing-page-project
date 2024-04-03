@@ -1,0 +1,172 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-top: 15px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 30px;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 0;
+    gap: 10px;
+}
+
+.intro-img {
+    display: flex;
+    background-color: #757575;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.intro-img-text {
+    color: #f9faf8;
+    text-align: center;
+}
+
+#awesome {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#subtext {
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 7px;
+    padding: 8px 23px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+}
+
+.info-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#quote-main {
+    text-align: justify;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#quote-footer {
+    text-align: end;
+    font-weight: bold;
+}
+
+.signup-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.blue-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 90px 40px 90px;
+    background-color: #3882f6;
+    border-radius: 7px;
+    color: #f9faf8;
+}
+
+#calltoaction {
+    font-weight: bolder;
+}
+
+#blue-container-button {
+    border-style: solid;
+    border-color: #f9faf8;
+}
+
+.footer {
+    text-align: center;
+    color: #e5e7eb;
+}
+
+.header, .introduction, .footer {
+    background-color: #1f2937;
+
+}
+
+.information .info-content div {
+    width: 200px;
+}
+
+.information .info-content div img {
+    height: 200px;
+}
+
+.information .info-content div p {
+    text-align: center;
+}
+
+.header, .introduction, .signup-container, .footer {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.information, .quote {
+    padding-left: 360px;
+    padding-right: 360px;
+}
